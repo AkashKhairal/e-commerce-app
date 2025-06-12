@@ -1,4 +1,4 @@
-package com.akash.ecommerce.payment.payment;
+package com.akash.ecommerce.payment;
 
 import java.math.BigDecimal;
 

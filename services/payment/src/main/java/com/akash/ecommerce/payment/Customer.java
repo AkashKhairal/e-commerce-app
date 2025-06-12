@@ -1,4 +1,4 @@
-package com.akash.ecommerce.payment.payment;
+package com.akash.ecommerce.payment;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;

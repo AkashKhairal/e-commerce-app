@@ -1,4 +1,4 @@
-package com.akash.ecommerce.payment.payment;
+package com.akash.ecommerce.payment;
 
 
 import jakarta.persistence.*;
@@ -24,7 +24,7 @@ public class Payment {
     private Integer id;
     private BigDecimal amount;
     @Enumerated(EnumType.STRING)
-    private PaymentMethod paymentMethod;
+     private PaymentMethod paymentMethod;
     private Integer orderId;
     @CreatedDate
     @Column(updatable = false, nullable = false)
